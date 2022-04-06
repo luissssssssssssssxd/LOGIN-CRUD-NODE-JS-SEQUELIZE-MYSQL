@@ -40,6 +40,7 @@ module.exports = {
                 id:user_id
             }
         });
+      
         return res.status(200).send({
             status:1,
             message:"Usuario actualizado correctamente",
